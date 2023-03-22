@@ -3,37 +3,36 @@ import java.util.Scanner;
 
 public class Teste {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        //Aumento de Salário
-        System.out.println("Digite o  salario: ");
-        double salario = sc.nextDouble();
-        System.out.println("Digite o percentual de aumento: ");
-        double percentual = sc.nextDouble();
-        System.out.println("O novo salario é: R$" + salarioAtual(salario, percentual));
-        
+        try (Scanner sc = new Scanner(System.in)) {
+            //Aumento de Salário
+            System.out.println("Digite o  salario: ");
+            double salario = sc.nextDouble();
+            System.out.println("Digite o percentual de aumento: ");
+            double percentual = sc.nextDouble();
+            System.out.println("O novo salario é: R$" + salarioAtual(salario, percentual));
+            
 
-        // de dados
-        tipoDados();
-        
+            // de dados
+            tipoDados();
+            
 
-        //Soma até n
-        System.out.println("Digite um número: ");
-        int n = sc.nextInt();
-        System.out.println("A soma de 1 até " + n + " é: " + somaAte(n));
-        
+            //Soma até n
+            System.out.println("Digite um número: ");
+            int n = sc.nextInt();
+            System.out.println("A soma de 1 até " + n + " é: " + somaAte(n));
+            
 
-        //Calculo de idade
-        System.out.println("Digite seu nome: ");
-        String nome = sc.nextLine();
-        System.out.println("Digite o dia do seu nascimento: ");
-        int dia = sc.nextInt();
-        System.out.println("Digite o mês do seu nascimento: ");
-        int mes = sc.nextInt();
-        System.out.println("Digite o ano do seu nascimento: ");
-        int ano = sc.nextInt();
-        System.out.println(calculoIdade(nome, dia, mes, ano));
-        
-
+            //Calculo de idade
+            System.out.println("Digite seu nome: ");
+            String nome = sc.nextLine();
+            System.out.println("Digite o dia do seu nascimento: ");
+            int dia = sc.nextInt();
+            System.out.println("Digite o mês do seu nascimento: ");
+            int mes = sc.nextInt();
+            System.out.println("Digite o ano do seu nascimento: ");
+            int ano = sc.nextInt();
+            System.out.println(calculoIdade(nome, dia, mes, ano));
+        }
         //Disciplinas do 2º ano
         discEnSoftware();
         
