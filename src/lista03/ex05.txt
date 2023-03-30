@@ -1,0 +1,6 @@
+O escopo de uma variável se refere à acessibilidade de uma variável, podendo ser local ou global.
+
+Uma variável local é uma variável que foi declarada de uma função ou método, e só pode ser acessada
+dentro de tal função ou método, sendo automaticamente destruídas no final do processo.
+Já uma variável global é quando uma variável é declarada na classe, podendo ser utilizadas livremente dentro
+da classe e são mantidas enquanto a classe estiver em uso.
