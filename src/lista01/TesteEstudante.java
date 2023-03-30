@@ -1,4 +1,4 @@
-package Lista1.ex01.ex02;
+package lista01;
 import java.util.Scanner;
 
 public class TesteEstudante {

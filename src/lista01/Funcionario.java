@@ -1,4 +1,4 @@
-package Lista1.ex01;
+package lista01;
 
 public class Funcionario {
     double salarioBase;

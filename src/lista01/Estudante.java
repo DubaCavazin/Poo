@@ -1,4 +1,4 @@
-package Lista1.ex01.ex02;
+package lista01;
 
 public class Estudante {
     double notaUm;
@@ -18,3 +18,4 @@ public class Estudante {
 
     }
 }
+

@@ -1,4 +1,5 @@
-package Lista1.ex01;
+package lista01;
+
 import java.util.Scanner;
 
 public class TesteFuncionario {
