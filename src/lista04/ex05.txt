@@ -1,0 +1,14 @@
+Temos 3 tipos principais de escopo de variáveis em Java:
+
+1 - Escopo de Classe:
+    Quando a variável é declarada na Classe, fora de qualquer bloco de código, podendo ser utilizada 
+em toda a Classe, inclusive seus métodos.
+
+2 - Escopo de Bloco:
+    Variáveis declaradas dentro de um bloco de código ou método, podendo ser acessadas apenas dentro do
+bloco, não existem fora dele, e se são declaradas em blocos diferentes com o mesmo nome, são vairáveis
+diferentes e independentes.
+
+3 - Escopo de Parâmetro:
+    São variáveis utilizadas no parâmetro de métodos e tem escopo limitado apena à aquele método que é utilizada,
+sendo visível e utilizada apenas pelo método.

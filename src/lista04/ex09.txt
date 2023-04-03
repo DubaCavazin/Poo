@@ -1,0 +1,4 @@
+Usamos "this" para fazer referência ao objeto da Classe que está sendo utilizado, diferenciando
+entre os campos e métodos de uma classe e os parâmetros ou variáveis locais com o mesmo nome. Também pode ser
+usado para chamar outros construtores na mesma classe, passar o objeto atual como um parâmetro em um método ou
+retornar o próprio objeto em um método, entre outras funcionalidades.

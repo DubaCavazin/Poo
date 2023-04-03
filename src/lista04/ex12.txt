@@ -1,0 +1,10 @@
+Ao remover a palavra-chave "static" do método exponenciacao, a classe TesteCalculadora deixará de poder chamar
+diretamente o método usando a sintaxe "Calculadora.exponenciacao(2, 5)", uma vez que o método agora pertence à
+instância da classe Calculadora.
+
+Para chamar o método sem o modificador "static", é necessário criar uma instância da classe Calculadora e
+chamar o método nessa instância.
+
+Isso acontece porque métodos estáticos são associados à classe em si e não a uma instância específica da
+classe, enquanto métodos não estáticos são associados a uma instância específica da classe. Ao chamar um método
+não estático, é necessário ter uma instância da classe para chamar o método nessa instância.
