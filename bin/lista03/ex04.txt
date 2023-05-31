@@ -1,7 +1,0 @@
-O "this" é utilizado para diferenciar variáveis locais e globais, quando uma variável local tem o mesmo nome
-que uma variável global, é necessário uzar o "this" para se referir à variável global, mantendo o código 
-organizado evitando ambiguidade e confusão.
-
-Também pode ser utilizado para chamar métodos de nomes iguais dentro de uma mesma classe.
-
-Resumindo, o "this" é utilizado para evitar confusão dentro do código e pode também servir para chamar métodos.
