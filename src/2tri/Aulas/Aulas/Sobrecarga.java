@@ -1,3 +1,5 @@
+package Aulas;
+
 //1 - Somar vetor de inteiros
 //2 - Somar qtd de parametros inteiros indeterminados
 //3 - Soma de vetor de caracteres ascii
