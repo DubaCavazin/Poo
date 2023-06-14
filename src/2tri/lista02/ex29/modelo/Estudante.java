@@ -1,7 +1,8 @@
 package lista02.ex29.modelo;
 
-public class Estudante extends Matricula {
-    private String nome;
+public class Estudante extends Pessoa {
     private String cpf;
+
     
 }
+
