@@ -1,4 +1,4 @@
-package Aulas;
+package Aulas.tratamento;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -19,12 +19,13 @@ public class TratamentoExessoes {
                 }
 
             }catch(InputMismatchException e1){
-                System.out.println("Caiu no Catch");
-                tc.next();
+                System.out.println("Não é um Inteiro");
             }catch(ArithmeticException e2){
                 System.out.println("Divisão por zero");
                 System.out.println("Saindo do loop");
                 break;
+            }finally{
+                tc.nextLine();
             }
         }while( x != 0);
 
