@@ -10,10 +10,12 @@ public class Principal {
 
         System.out.println("Informe o tamanho do vetor: ");
         tamanho = tc.nextInt();
-        
+
+        ManipulaVetor novoVetor = new ManipulaVetor(tamanho);
+
         x = 0;
         do{
-            ManipulaVetor novoVetor = new ManipulaVetor(tamanho);
+            
 
             System.out.println("Informe o valor a ser adicionado: ");
             valor = tc.nextInt();
@@ -28,7 +30,12 @@ public class Principal {
 
             System.out.println("Para sair digite 1: ");
             x = tc.nextInt();
+            System.out.println("-------------------------");
         }while(x != 1);
+
+        for(int i = 0; i < tamanho; i++){
+            System.out.println("Vetor[" + i + "] = " + novoVetor.vetor[i]);
+        }
         
         tc.close();
     }
